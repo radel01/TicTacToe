@@ -1,0 +1,24 @@
+main{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.jatekter div{
+    font-family: Arial, Helvetica, sans-serif ;
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    padding: 0px;
+    border-radius: 10px;
+    font-size: 45px;
+    cursor: grab;
+    place-items: center;
+}
+header{
+    text-align: center;
+}
